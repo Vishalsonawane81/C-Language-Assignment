@@ -2,11 +2,11 @@
 
 void Display(int iNo)
 {
-    int icnt = 0;
-    while(icnt < iNo)
+    int icnt = iNo;
+    while(iNo > 0)
     {
          printf("*");
-         icnt ++;
+         icnt --;
     }
 }
 
